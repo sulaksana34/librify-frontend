@@ -1,0 +1,44 @@
+{
+  "name": "librify-app",
+  "version": "1.0.0",
+  "description": "Packages for Librify App",
+  "private": true,
+  "packageManager": "yarn@3.2.1",
+  "engines": {
+    "node": "^16.11.0 || ^17.0.0 || || ^18.0.0"
+  },
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "generate": "nuxi generate",
+    "start": "node .output/server/index.mjs",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@headlessui/vue": "1.7.13",
+    "@nuxt/kit": "npm:@nuxt/kit-edge@latest",
+    "@nuxtjs/i18n": "8.0.0-beta.10",
+    "@pinia/nuxt": "0.4.11",
+    "@tailwindcss/forms": "0.5.3",
+    "pinia": "2.1.1"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "0.31.0",
+    "@iconify-json/carbon": "1.1.16",
+    "@iconify-json/ic": "1.1.13",
+    "@iconify-json/ph": "1.1.5",
+    "@iconify-json/twemoji": "1.1.11",
+    "@nuxtjs/color-mode": "3.2.0",
+    "@nuxtjs/tailwindcss": "6.7.0",
+    "@unocss/nuxt": "0.46.5",
+    "@vueuse/nuxt": "10.1.2",
+    "dotenv-cli": "^7.2.1",
+    "eslint": "8.28.0",
+    "nuxt": "3.5.2",
+    "postcss-custom-properties": "^13.1.5",
+    "sass": "1.62.1",
+    "sass-loader": "13.2.2",
+    "typescript": "5.0.4"
+  }
+}
